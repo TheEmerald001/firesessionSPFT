@@ -37,6 +37,6 @@ input.question("Speed of the car: ", function (speed){
                 process.exit(0);                
             }
        }
-    } 
+    }
     input.close();
 });
