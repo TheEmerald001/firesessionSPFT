@@ -1,0 +1,14 @@
+*{
+    background-color: azure;
+    width: 100%;
+}
+
+nav {
+    height: 10vh;
+    background-color: orangered;
+}
+#inputs {
+    width: 50%;
+    display: inline;
+
+}

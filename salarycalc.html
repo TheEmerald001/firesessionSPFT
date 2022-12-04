@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="application/javascript"></script>
+    <link rel="stylesheet" href="./index.css">
+    <title>Salary Calculator</title>
+</head>
+<body>
+    <section>
+        <nav>
+            SALARY CALCULATOR
+        </nav>
+        <div id="inputs">
+            <form id="forms">
+                <label for="basicsalary">Enter your basic salary:</label><br>
+                <input type="text" id="bsalary" name="bsalary" required><br>
+                <label for="benefits">Total Allowances</label><br>
+                <input type="text" id="allowances" name="allowances">
+            </form>
+        </div>
+        <div id="toggles">
+            <h3>Select the right response for for each set of categories below</h3>
+            <form id="forms">
+                <h5>Do you have a disability tax exemption?</h5>
+              <input type="radio" id="dexempt" name="dexempted" value="True">
+              <label for="dexempt">Yes</label>
+              <input type="radio" id="dexempt" name="dexempted" value="True">
+              <label for="dexempt">No</label><br><br>
+              <h5>Do you have a life insurance policy?</h5>
+              <input type="radio" id="lexempt" name="lexempted" value="True">
+              <label for="lexempt">Yes</label>
+              <input type="radio" id="lexempt" name="lexempted" value="True">
+              <label for="lexempt">No</label><br><br>
+              <h5>Are you currently servicing a Mortgage?</h5>
+              <input type="radio" id="mexempt" name="mexempted" value="True">
+              <label for="mexempt">Yes</label>
+              <input type="radio" id="mexempt" name="mexempted" value="True">
+              <label for="mexempt">No</label><br><br>              
+            </form>
+        </div>
+        <div id="results">
+            <h5 id="tincome">Your total taxable income is Ksh: </h5>
+            <h5 id="paye">Your Pay As you Earn Amount is kSH: </h5>
+            <h5 id="tdeductions">Your total deductions Amount to Ksh:</h5>
+            <h5 id="treliefs">Reliefs offered to you amount to Ksh: </h5>
+            <h5 id="netpay">Your Net Salary per month is Ksh: </h5>
+        </div>
+    </section>   
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
